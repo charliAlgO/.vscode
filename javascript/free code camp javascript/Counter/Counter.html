@@ -1,0 +1,56 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title> People Counter App</title>
+    </head>
+    <body>
+        <div class="content">
+            <h1>Number of People</h1>
+            <h2 id = "countFifu">0</h2>
+            <button id = "increment">INCREMENT</button>
+            <button id = "decrement">DECREMENT</button>
+            <button id = "reset"> RESET</button>
+        </div>
+        <div class = "Output">
+            Records : <span id="Record"></span>
+        </div> 
+
+        <style>
+            body{
+                justify-content: center;
+               /* background-color: blueviolet;*/
+            }
+            .content{
+                margin-left: 50px;
+                margin-top: 18%;
+                margin-left: 40%;
+                border: 2px, solid, cornsilk;
+                border-radius: 1.5rem;
+            }
+            #countFifu{
+                margin-left: 100px;
+            }
+            #reset{
+                color: white;
+                background-color:blue;
+                border: solid, 0.5px;
+                border-radius: 1.5rem;
+        
+                
+            }
+            #increment{
+                color: black;
+                background-color: blue;
+                border: solid, 0.5px;
+                border-radius: 1.5rem;
+            }
+            #decrement{
+                color: black;
+                background-color:blue;
+                border: solid, 0.5px;
+                border-radius: 1.5rem;
+            }
+        </style>
+        <script src="Counter.js"></script>
+    </body>
+</html>
